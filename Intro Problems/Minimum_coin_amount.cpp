@@ -47,7 +47,7 @@ int main(){
     int coins[] = {1,7,10}; //Coins of different values: 1,7,10
     int dp[100] = {0};
     int T = sizeof(coins) / sizeof(int);
-    //cout<<minCoins_TD(N,coins, T, dp)<<endl;
-    cout<<minCoins_BU(N,coins, T)<<endl;
+    cout<<minCoins_TD(N,coins, T, dp)<<endl;
+    //cout<<minCoins_BU(N,coins, T)<<endl;
     return 0;
 }
